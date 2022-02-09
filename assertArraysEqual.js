@@ -13,15 +13,15 @@ const eqArrays = function(arr1, arr2) {
     }
   }
   return true;
-}
+};
 
-const assertArraysEqual = function() {
-  if (true) {
+const assertArraysEqual = function(actual, expected) {
+  const isEqual = eqArrays(actual, expected);
+  
+  if (isEqual === true) {
     console.log('The arrays match!');
+  } else {
+    console.log('The arrays do not match.')
   }
-
-  if (false) {
-    console.log('The arrays do not match. :(');
-  }
-}
-console.log(assertArraysEqual(eqArrays([1,2,3],[1,2,3])));
+};
+assertArraysEqual([1,2,3], [1,2,3]);
