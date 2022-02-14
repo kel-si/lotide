@@ -11,14 +11,13 @@ const middle = function(arr) {
     midPointArray.push(Math.ceil(midPoint));
     return midPointArray;
     
-  } else if (arr.length % 2 === 0 && arr.length > 2) {
+  } if (arr.length % 2 === 0 && arr.length > 2) {
     //For arrays with an even number of elements, an array containing the two elements in the middle should be returned
     midPointArray.push(Math.ceil(midPoint));
     midPointArray.push(Math.ceil(evenMidPoint));
     return midPointArray;
-  } else {
+  } 
     return midPointArray;
-    }
 };
 
 module.exports = middle;
