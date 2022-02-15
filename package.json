@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@kel-si/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "JavaScript library: a clone of Lodash",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/kel-si/lotide.git"
   },
-  "author": "kelsi olstad",
+  "author": "Kelsi Olstad",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kel-si/lotide/issues"
