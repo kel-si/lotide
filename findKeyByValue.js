@@ -17,13 +17,7 @@ const findKeyByValue = function(obj, value) {
   }
 };
 
-const myMonster = {
-  name: "Medusa",
-  hair: "snakes",
-  power: "turn to stone"
-};
+module.exports = findKeyByValue;
 
-// console.log(myMonster["hair"]); //keys are string!!
-console.log(findKeyByValue(myMonster, "Medusa"));
-assertEqual(findKeyByValue(myMonster, "turn to stone"), "power");
-assertEqual(findKeyByValue(myMonster, "fire"), undefined);
+// assertEqual(findKeyByValue(myMonster, "turn to stone"), "power");
+// assertEqual(findKeyByValue(myMonster, "fire"), undefined);

@@ -30,9 +30,11 @@ const eqObjects = function(object1, object2) {
   }
 };
 
+module.exports = eqObjects;
+
 /* Test Data: */
-// const ab = { a: "2", b: "2" };
-// const ba = { b: "2", a: "2" };
+// const ab = { a: ["2"], b: "2" };
+// const ba = { b: ["2"], a: "2" };
 // assertEqual(eqObjects(ab, ba), true); // => true
 
 // const abc = { a: "1", b: "2", c: "3" };
